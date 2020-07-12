@@ -1,0 +1,93 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  line-height: 1.7;
+  padding: 0;
+  margin: 0;
+  background-color: #E0E2DB;
+}
+
+h1 {
+  margin: 0; padding: 0;
+  text-align:center;
+}
+
+#message-content{
+  border:2px solid black;
+  border-radius: 15px;
+}
+.container  {
+  overflow: hidden;
+  margin-left: 15px; margin-right: 15px;
+  
+  }
+
+  #gametitle {
+  background: #DBD053;
+  margin: 0 auto;
+  width:80%;
+ 
+}
+#gamecontents{
+  
+  width:90%;
+  height:600px;
+  border:2px solid black;
+  border-radius:5px;
+  margin:0 auto;
+}
+#message{
+  text-align:center;
+  
+}
+
+#rules{
+  text-decoration:underline;
+  
+}
+#footer{
+  text-align:center;
+  background: #534D41;
+  color: white;
+}
+
+
+#box {
+  background: black;
+  height: 8px;
+  width: 10;
+  animation-name: theanimation;
+  animation-duration: 5s;
+  animation-iteration-count:infinite ;
+  /* animation-timing-function: ease-in; */
+  animation-fill-mode:forwards;
+  animation-direction:alternate;
+  color: white;
+  
+
+}
+
+@keyframes theanimation {
+    from {
+    margin-right: 0%;
+    width: 0%; 
+  }
+
+  to {
+    margin-right : 100%;
+    width: 100%;
+    
+  }
+
+ 
+  0% {background-color:#DB2B39; }
+  25%  {background-color:#29335C; }
+  50%  {background-color:#F3A712; }
+  75%  {background-color:#F0CEA0; }
+  100% {background-color:#534D41; }
+  
+}
+
+
+
+

@@ -1,0 +1,195 @@
+#morse{
+  font-size:15px;
+  text-align:center;
+}
+
+a{
+  color:rgb(0, 0, 0);
+  text-decoration:none;
+}
+a:hover{
+  color:white;
+}
+#link{
+  color:black; 
+  text-decoration:none;
+  
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  line-height: 1.7;
+  padding: 0;
+  margin: 0;
+  
+  /*background: linear-gradient(-90deg, #9198e5,#8fbdc7);
+  animation: gradient 10s ease infinite; */
+
+  background: linear-gradient(
+    90deg,
+   #577399,
+   #bdd5ea, 
+   
+   
+   #5c677d,
+   #979dac);
+  background-size: 400% 400%;
+  animation: tryout 15s ease-in-out infinite;
+  
+}
+
+@keyframes tryout {
+  0% {
+		background-position: 0% 50%;
+	}
+	25% {
+		background-position: 100% 50%;
+	}
+	50% {
+		background-position: 0% 50%;
+	}
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+h1 {
+  margin: 0; padding: 0;
+  text-align:center;
+  font-size:50px;
+}
+/*
+#lilmessage {
+  width: 85%;
+  height: 70%;
+  margin: auto;
+  padding: 5px;
+  background-color: #FFA630; height: 200px;
+
+  margin-top: 3px;
+  margin-bottom: 19px;
+  border-radius:10px;
+
+}
+*/
+
+#message-content{ 
+ border:2px solid black;
+ size: 15px;
+ color: black;
+ text-align:center;
+ background-color: #FFA630; height: 200px;
+ width: 90%;
+ height: 70%;
+ margin: auto;
+ padding: 5px;
+ margin-top: 3px;
+ margin-bottom: 19px;
+ border-radius:10px; 
+}
+.container  {
+  overflow: hidden;
+
+  
+  }
+
+  #gametitle {
+  background: #746D75;
+  margin: auto;
+  width:95%;
+  color: white;
+  height:30%;
+  
+
+
+ 
+}
+#gamecontents{
+  overflow:hidden;
+  width:600px;
+  height:500px;
+ /* border:2px solid black; */
+  border-radius:5px;
+  margin:0 auto;
+  padding: 5px; 
+  
+  
+
+}
+#message{
+
+ margin-left: 35px;
+ padding: 0;
+  
+}
+
+#videos{
+  width:600px;
+  
+  margin:0 auto;
+}
+#rules{
+  text-decoration:underline;
+   
+  
+}
+
+#rules-container{
+  /* if you wanna put a bg color */
+}
+
+#rules-contents {
+  
+  text-align: center;
+}
+
+
+#footer{
+  text-align:center;
+  background: #534D41;
+  color: white;
+}
+
+
+
+
+/* The animation */
+.box {
+  background: black;
+  height: 8px;
+  width: 10;
+  animation-name: theanimation;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction:alternate;
+  /* animation-timing-function: ease-in; */
+  animation-fill-mode:forwards;
+  color: white;
+  
+
+}
+@keyframes theanimation {
+    from {
+    margin-right: 0%;
+    width: 0%; 
+  }
+ 
+  to {
+    margin-right : 100%;
+    width: 100%;
+    
+  }
+ 
+  0% {background-color:#000000; }
+  25%  {background-color:#14213d; }
+  50%  {background-color:#fca311; }
+  75%  {background-color:#DB2B39; }
+  100% {background-color:#534D41;
+  
+}
+
+
+
+
+
